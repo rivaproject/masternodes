@@ -40,9 +40,9 @@ if [[ $DOSETUPTWO =~ "y" ]] ; then
 
 riva-cli stop > /dev/null 2>&1
 cd /home/
-wget https://github.com/rivaproject/rivacoin/releases/download/1.0/linux_v1.0.zip
-unzip linux_v1.0.zip
-rm -rf linux_v1.0.zip
+wget https://github.com/rivaproject/rivacoin/releases/download/1.1/linux_v1.1.zip
+unzip linux_v1.1.zip
+rm -rf linux_v1.1.zip
 chmod +x riva*
 mv riva* /usr/local/bin/
 fi
